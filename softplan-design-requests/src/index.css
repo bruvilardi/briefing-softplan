@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-blue-50: color-mix(in srgb, #5C5CFF 10%, white);
+  --color-blue-100: color-mix(in srgb, #5C5CFF 20%, white);
+  --color-blue-200: color-mix(in srgb, #5C5CFF 40%, white);
+  --color-blue-300: color-mix(in srgb, #5C5CFF 60%, white);
+  --color-blue-400: color-mix(in srgb, #5C5CFF 80%, white);
+  --color-blue-500: #5C5CFF;
+  --color-blue-600: color-mix(in srgb, #5C5CFF 85%, black);
+  --color-blue-700: color-mix(in srgb, #5C5CFF 70%, black);
+  --color-blue-800: color-mix(in srgb, #5C5CFF 50%, black);
+  --color-blue-900: color-mix(in srgb, #5C5CFF 30%, black);
+}
